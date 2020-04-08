@@ -18,3 +18,5 @@ stacks:
   requirements:
     docker-version: '>= 17.09.0'
     appsody-version: '>= 0.2.7'
+  image: docker.io/appsody/nodejs-express:0.4.6
+
