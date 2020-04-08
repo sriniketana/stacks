@@ -1,2 +1,22 @@
 apiVersion: v2
 stacks:
+- id: mobile-nodejs
+  name: Mobile Node.js BFF
+  version: 0.0.1
+  description: A Node.js BFF for Mobile clients
+  license: Apache-2.0
+  language: nodejs
+  maintainers:
+  - name: Srihari Kulkarni
+    email: skulkarni@in.ibm.com
+    github-id: sriharikulkarni
+  default-template: simple
+  src: https://github.com/appsody/stacks/releases/download/mobile-nodejs.v0.0.1.source.tar.gz
+  templates:
+  - id: simple
+    url: https://github.com/appsody/stacks/releases/download/mobile-nodejs.v0.0.1.templates.simple.tar.gz
+  - id: scaffold
+    url: https://github.com/appsody/stacks/releases/download/mobile-nodejs.v0.0.1.templates.scaffold.tar.gz
+  requirements:
+    docker-version: '>= 17.09.0'
+    appsody-version: '>= 0.2.7'
