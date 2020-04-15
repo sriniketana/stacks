@@ -11,12 +11,10 @@ stacks:
     email: skulkarni@in.ibm.com
     github-id: sriharikulkarni
   default-template: simple
-  src: https://github.com/appsody/stacks/releases/download/mobile-nodejs-bff.v0.0.1.source.tar.gz
+  src: https://github.com/sriniketana/stacks/releases/download/0.0.1/mobile-nodejs-bff.v0.0.1.source.tar.gz
   templates:
   - id: simple
-    url: https://github.com/appsody/stacks/releases/download/mobile-nodejs-bff.v0.0.1.templates.simple.tar.gz
-  - id: scaffold
-    url: https://github.com/appsody/stacks/releases/download/mobile-nodejs-bff.v0.0.1.templates.scaffold.tar.gz
+    url: https://github.com/sriniketana/stacks/releases/download/0.0.1/mobile-nodejs-bff.v0.0.1.templates.simple.tar.gz
   requirements:
     docker-version: '>= 17.09.0'
     appsody-version: '>= 0.2.7'
