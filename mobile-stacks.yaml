@@ -18,4 +18,4 @@ stacks:
   requirements:
     docker-version: '>= 17.09.0'
     appsody-version: '>= 0.2.7'
-  image: dev.local/appsody/mobile-nodejs-bff:0.0.1
+  image: docker.io/appsody/nodejs-express:0.4.6
